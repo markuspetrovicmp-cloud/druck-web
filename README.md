@@ -15,3 +15,12 @@ Die Schrift **Permanent Marker** ist lokal als `permanent-marker.ttf` eingebunde
 
 ## Hinweise
 Die Referenzlinien sind keine Diagnose. Das Diagramm zeigt die Messungen gleichmäßig nach Reihenfolge, nicht maßstabsgetreu nach Zeitabstand. Eine automatische Hintergrund-Synchronisation oder Cloud-Sicherung gibt es nicht.
+
+## Bedienung (Version 1.1)
+Die Startkacheln öffnen eine bildschirmfüllende Ansicht unter dem festen Header.
+Am grauen Griff nach unten ziehen oder auf den Griff tippen, um die Ansicht zu schließen.
+Das Logo `d.` schließt die Ansicht ebenfalls.
+
+
+## Fotoerkennung (Version 1.2)
+In „Neue Messung“ auf „Foto vom Messgerät“ tippen. Das Foto wird per Tesseract.js **im Browser** ausgewertet. Die OCR-Bibliothek und das englische Sprachmodell müssen beim ersten Einsatz über eine Internetverbindung geladen werden. Der Foto-Inhalt wird nicht an einen OCR-Dienst hochgeladen. Die OCR-Ergebnisse sind fehleranfällig; alle drei Zahlen vor dem Speichern mit dem Messgerät vergleichen. Manuelle Eingabe bleibt jederzeit möglich. Offline-Fotoerkennung ist nicht garantiert, solange die OCR-Dateien nicht fest ins Repository eingebunden sind.
